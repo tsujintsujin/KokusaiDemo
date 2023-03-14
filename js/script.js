@@ -5,6 +5,9 @@ addEventListener("load", (event) => { });
 
 onload = (event) => {
 
+    
+
+
     navToggle = document.getElementById('navToggle');
     if (document.getElementById('mkdhymn')) {
         const audio = document.getElementById('mkdhymn');
@@ -40,9 +43,6 @@ onload = (event) => {
     });
 
 
-
-
-
     navToggle.addEventListener("click", (event) => {
 
         sidebar.classList.toggle("active");
@@ -73,9 +73,7 @@ onload = (event) => {
                 chevronAcademe.setAttribute('d', chevronUp);
             } else {
                 chevronAcademe.setAttribute('d', chevronDown);
-
             }
-
         });
 
         servicesDrop.addEventListener("click", (event) => {
